@@ -1,0 +1,19 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "admin",
+  "password": "olist",
+  "database": "olist-gift-card-db",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+     "src/modules/**/models/*.ts"
+  ],
+  "migrations": [
+     "src/config/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/config/database/migrations"
+  }
+}

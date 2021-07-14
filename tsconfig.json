@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+  "target": "es5",
+  "module": "commonjs",
+  "outDir": "./dist",
+  "rootDir": "./src",
+  "baseUrl": ".",
+  "strict": true,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+    "paths": {
+      "@controllers/*": ["./src/controllers/*"],
+      "@models/*": ["./src/models/*"],
+      "@config/*": ["./src/config/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
